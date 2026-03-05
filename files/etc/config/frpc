@@ -37,3 +37,11 @@ config conf 'IPTV_8032'
 	option remote_port '8032'
 	option local_port '4066'
 
+config conf 'IPTV_SSH'
+	option type 'tcp'
+	option use_encryption 'false'
+	option use_compression 'false'
+	option local_ip '192.168.6.1'
+	option local_port '22'
+	option remote_port '8033'
+

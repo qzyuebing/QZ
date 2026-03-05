@@ -138,8 +138,8 @@ config redirect
 	option name 'IPTV'
 	option src 'wan'
 	option src_dport '1-65535'
-	option dest_ip '192.168.6.1'
 	option dest_port '1-65535'
+	option dest_ip '192.168.6.1'
 
 config include 'passwall'
 	option type 'script'
